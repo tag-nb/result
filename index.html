@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="result, site">
+  <meta name="description" content="Это сайт Бутырина Никиты">
+  <link rel="stylesheet" href="style.css">
+  <title>Test-site</title>
+</head>
+<body>
+  <div class="container">
+    <div class="info card">
+      <img class="info__image" src="1.jpg" alt="Бутырин Никита" width="200">
+      <div class="info__text">
+        <h1 class="title">Бутырин Никита</h1>
+        <p class="text">
+          Я решил освежить воспоминания по <strong>HTML</strong> и <strong>CSS</strong> в онлайн-школе <strong>Result School</strong>.
+        </p>
+        <p class="text">
+          Я - разносторонняя и творческая личность, следящая за всеми новинками в <em> технологической сфере, музыкальной, видеоигровой, футбольной и в кино.</em>
+        </p>
+        <h2 class="subtitle">Список социальных сетей:</h2>
+        <a class="link" href="https://t.me/badjopa" target="_blank">Telegram</a>
+        |
+        <a class="link" href="https://www.youtube.com/channel/UC3UgvfRZ0CoCwd2R0pLsqQA" target="_blank">Youtube</a>
+      </div>
+    </div>
+    <div class="card card-hobby">
+      <h2 class="card-hobby__subtitle subtitle">Мои хобби:</h2>
+      <ol class="card-hobby__list">
+        <li>
+          <p class="text">
+            Путешествия
+          </p>
+        </li>
+        <li>
+          <p class="text">
+            Занятие спортом
+          </p>
+        </li>
+        <li>
+          <p class="text">
+            Фотография
+          </p>
+        </li>
+        <li>
+          <p class="text">
+            Прослушивание музыки, подкастов
+          </p>
+        </li>
+      </ol>
+    </div>
+    <div class="card card-experience">
+      <h2 class="subtitle">Знание программ:</h2>
+      <table>
+        <tbody>
+          <tr class="table-row">
+            <td>Дизайн</td>
+            <td>Figma, SketchUp, CoralDraw, Blender</td>
+          </tr>
+          <tr class="table-row">
+            <td>Фото/видео обработка</td>
+            <td>Adobe Photoshop, Premiere Pro, After Effects, Movavi, Sony Vegas Pro</td>
+          </tr>
+          <tr class="table-row">
+            <td>Офисные</td>
+            <td>MS Office; Google Документы,Таблицы</td>
+          </tr>
+          <tr class="table-row">
+            <td>Программирование</td>
+            <td>VSCode</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card card-connection">
+      <form class="form">
+        <h2 class="subtitle form__title">Связаться со мной</h2>
+        <div class="form-row">
+          <div class="form__block">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="Введите имя">
+          </div>
+          <div class="form__block">
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="Введите email">
+          </div>
+        </div>
+        <div class="form__block">
+          <label for="message">Ваше сообщение:</label>
+          <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+        </div>
+        <input class="btn" type="submit" value="Отправить!">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
